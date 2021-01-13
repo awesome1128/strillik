@@ -1,0 +1,244 @@
+{
+    "1": {
+        "name": "Home 1",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-1.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-1/niche_01_design_strollik.zip",
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-1/niche_01_elements_strollik.zip",
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-1/niche_01_slider_strollik.zip"
+        ]
+    },
+    "2": {
+        "name": "Home 2",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-2.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-2/niche_02_slide-coffeemaker.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-2.xml"
+    },
+    "3": {
+        "name": "Home 3",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-3.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-3/niche_03_dronik_slide_2.zip",
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-3/niche_03_home_dronik.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-3.xml"
+    },
+    "4": {
+        "name": "Home 4",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-4.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-4/niche_04_slider_ebag.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-4.xml"
+    },
+    "5": {
+        "name": "Home 5",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-5.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-5/niche_05_slider_energydrink.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-5.xml"
+    },
+    "6": {
+        "name": "Home 6",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-6.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-6/niche_06_dimensions.zip",
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-6/niche_06_slide_eshaver.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-6.xml"
+    },
+    "7": {
+        "name": "Home 7",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-7.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-7/niche_07_slider_eskateboard.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-7.xml"
+    },
+    "8": {
+        "name": "Home 8",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-8.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-8/niche_08_slider-slimwallet.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-8.xml"
+    },
+    "9": {
+        "name": "Home 9",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-9.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-9/niches_09_smartglasse.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-9.xml"
+    },
+    "10": {
+        "name": "Home 10",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-10.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-10/niche_10_slider_watch.zip",
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-10/niche_10_tech_specs.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-10.xml"
+    },
+    "11": {
+        "name": "Home 11",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-11.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-11/niche_11_slider_smartbottle.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-11.xml"
+    },
+    "12": {
+        "name": "Home 12",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-12.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-12/niche_12_slide_ochair.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-12.xml"
+    },
+    "13": {
+        "name": "Home 13",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-13.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-13/niche_13_slider_home_smartband.zip",
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-13/niches_13_smartband_2.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-13.xml"
+    },
+    "14": {
+        "name": "Home 14",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-14.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-14/niche_14_add_to_cart.zip",
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-14/niche_14_smartcamera.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-14.xml"
+    },
+    "15": {
+        "name": "Home 15",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-15.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-15/niches_15_portablespeaker_2.zip",
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-15/niches_15_portablespeaker3.zip",
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-15/niches_15_slider_portablespeaker.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-15.xml"
+    },
+    "16": {
+        "name": "Home 16",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-16.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-16/niches_16_remotecontrol.zip",
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-16/niches_16_remotecontrol2.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-16.xml"
+    },
+    "17": {
+        "name": "Home 17",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-17.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-17/niche_17_slider_bikey.zip",
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-17/niches_17_bikey2.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-17.xml"
+    },
+    "18": {
+        "name": "Home 18",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-18.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-18/niches_18_chargerdock.zip",
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-18/niches_18_chargerdock2.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-18.xml"
+    },
+    "19": {
+        "name": "Home 19",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-19.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-19/niches_19_headfone.zip",
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-19/niches_19_headfone2.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-19.xml"
+    },
+    "20": {
+        "name": "Home 20",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-20.jpg",
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-20.xml"
+    },
+    "21": {
+        "name": "Home 21",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-21.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-21/niches_21_smarthelmet.zip",
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-21/niches_21_smarthelmet2.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-21.xml"
+    },
+    "22": {
+        "name": "Home 22",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-22.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-22/niches_22_smartlight.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-22.xml"
+    },
+    "23": {
+        "name": "Home 23",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-23.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-23/niches_23_smartmassager1.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-23.xml"
+    },
+    "24": {
+        "name": "Home 24",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-24.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-24/niches_24_vacuumleaner.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-24.xml"
+    },
+    "25": {
+        "name": "Home 25",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-25.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-25/home25-freshbody.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-25.xml"
+    },
+    "26": {
+        "name": "Home 26",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-26.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-26/home26-greenair.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-26.xml"
+    },
+    "28": {
+        "name": "Home 28",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-28.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-28/home28-singit.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-28.xml"
+    },
+    "29": {
+        "name": "Home 29",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-29.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-29/home29-skincare.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-29.xml"
+    },
+    "30": {
+        "name": "Home 30",
+        "screenshot": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-30.jpg",
+        "rev_sliders": [
+            "http://source.wpopal.com/strollik5/dummy_data/revsliders/home-30/home30-winey.zip"
+        ],
+        "xml": "http://source.wpopal.com/strollik5/dummy_data/strollik5/home-30.xml"
+    }
+}

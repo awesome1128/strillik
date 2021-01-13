@@ -1,0 +1,1107 @@
+@font-face {
+    font-family: "opal-icon";
+    src: url('fonts/opal-icon.eot');
+    src: url('fonts/opal-icon.eot?#iefix') format('eot'),
+    url('fonts/opal-icon.woff2') format('woff2'),
+    url('fonts/opal-icon.woff') format('woff'),
+    url('fonts/opal-icon.ttf') format('truetype'),
+    url('fonts/opal-icon.svg#opal-icon') format('svg');
+}
+
+[class*="opal-icon-"]:before{
+    font-family: "opal-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.opal-icon {
+    font-family: "opal-icon";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+@function opal-icon-char($filename) {
+    $char: "";
+
+    @if $filename == CPU {
+    $char: "\E001";
+}
+    @if $filename == accurately {
+    $char: "\E002";
+}
+    @if $filename == adjust {
+    $char: "\E003";
+}
+    @if $filename == air_conditioner {
+    $char: "\E004";
+}
+    @if $filename == angle {
+    $char: "\E005";
+}
+    @if $filename == arrow-left {
+    $char: "\E006";
+}
+    @if $filename == arrow-right {
+    $char: "\E007";
+}
+    @if $filename == baby_bottle {
+    $char: "\E008";
+}
+    @if $filename == battery-2 {
+    $char: "\E009";
+}
+    @if $filename == battery {
+    $char: "\E00A";
+}
+    @if $filename == bell {
+    $char: "\E00B";
+}
+    @if $filename == bicycle {
+    $char: "\E00C";
+}
+    @if $filename == bike {
+    $char: "\E00D";
+}
+    @if $filename == blade {
+    $char: "\E00E";
+}
+    @if $filename == bluetoot {
+    $char: "\E00F";
+}
+    @if $filename == bluetooth {
+    $char: "\E010";
+}
+    @if $filename == board {
+    $char: "\E011";
+}
+    @if $filename == body {
+    $char: "\E012";
+}
+    @if $filename == bow {
+    $char: "\E013";
+}
+    @if $filename == braking {
+    $char: "\E014";
+}
+    @if $filename == brightness {
+    $char: "\E015";
+}
+    @if $filename == broadcast {
+    $char: "\E016";
+}
+    @if $filename == calculate {
+    $char: "\E017";
+}
+    @if $filename == calling {
+    $char: "\E018";
+}
+    @if $filename == calorie {
+    $char: "\E019";
+}
+    @if $filename == cam {
+    $char: "\E01A";
+}
+    @if $filename == camera {
+    $char: "\E01B";
+}
+    @if $filename == care {
+    $char: "\E01C";
+}
+    @if $filename == cart-empty {
+    $char: "\E01D";
+}
+    @if $filename == cart {
+    $char: "\E01E";
+}
+    @if $filename == charging {
+    $char: "\E01F";
+}
+    @if $filename == check-circle {
+    $char: "\E020";
+}
+    @if $filename == chevron-left {
+    $char: "\E021";
+}
+    @if $filename == chevron-right {
+    $char: "\E022";
+}
+    @if $filename == circuit {
+    $char: "\E023";
+}
+    @if $filename == clean {
+    $char: "\E024";
+}
+    @if $filename == clock {
+    $char: "\E025";
+}
+    @if $filename == close {
+    $char: "\E026";
+}
+    @if $filename == color {
+    $char: "\E027";
+}
+    @if $filename == comfort {
+    $char: "\E028";
+}
+    @if $filename == compare {
+    $char: "\E029";
+}
+    @if $filename == comparison {
+    $char: "\E02A";
+}
+    @if $filename == connect {
+    $char: "\E02B";
+}
+    @if $filename == convenient {
+    $char: "\E02C";
+}
+    @if $filename == credit-card {
+    $char: "\E02D";
+}
+    @if $filename == crescent_moon {
+    $char: "\E02E";
+}
+    @if $filename == cup {
+    $char: "\E02F";
+}
+    @if $filename == custom {
+    $char: "\E030";
+}
+    @if $filename == diaper {
+    $char: "\E031";
+}
+    @if $filename == digital_camera {
+    $char: "\E032";
+}
+    @if $filename == dimension {
+    $char: "\E033";
+}
+    @if $filename == download {
+    $char: "\E034";
+}
+    @if $filename == droplets {
+    $char: "\E035";
+}
+    @if $filename == edge {
+    $char: "\E036";
+}
+    @if $filename == electrical {
+    $char: "\E037";
+}
+    @if $filename == email {
+    $char: "\E038";
+}
+    @if $filename == energy {
+    $char: "\E039";
+}
+    @if $filename == envelope-open-text {
+    $char: "\E03A";
+}
+    @if $filename == envelope {
+    $char: "\E03B";
+}
+    @if $filename == fast {
+    $char: "\E03C";
+}
+    @if $filename == fast_clock {
+    $char: "\E03D";
+}
+    @if $filename == fdd {
+    $char: "\E03E";
+}
+    @if $filename == filter {
+    $char: "\E03F";
+}
+    @if $filename == fire {
+    $char: "\E040";
+}
+    @if $filename == fixed {
+    $char: "\E041";
+}
+    @if $filename == flexible {
+    $char: "\E042";
+}
+    @if $filename == footstep {
+    $char: "\E043";
+}
+    @if $filename == forma {
+    $char: "\E044";
+}
+    @if $filename == free {
+    $char: "\E045";
+}
+    @if $filename == glow {
+    $char: "\E046";
+}
+    @if $filename == gluten {
+    $char: "\E047";
+}
+    @if $filename == group {
+    $char: "\E048";
+}
+    @if $filename == guarantee {
+    $char: "\E049";
+}
+    @if $filename == gym {
+    $char: "\E04A";
+}
+    @if $filename == hand-holding-usd {
+    $char: "\E04B";
+}
+    @if $filename == headphones-alt {
+    $char: "\E04C";
+}
+    @if $filename == heart-remove {
+    $char: "\E04D";
+}
+    @if $filename == heart {
+    $char: "\E04E";
+}
+    @if $filename == home-lg {
+    $char: "\E04F";
+}
+    @if $filename == hot {
+    $char: "\E050";
+}
+    @if $filename == hour {
+    $char: "\E051";
+}
+    @if $filename == icon-heading {
+    $char: "\E052";
+}
+    @if $filename == improve {
+    $char: "\E053";
+}
+    @if $filename == ion {
+    $char: "\E054";
+}
+    @if $filename == length {
+    $char: "\E055";
+}
+    @if $filename == life-ring {
+    $char: "\E056";
+}
+    @if $filename == lights {
+    $char: "\E057";
+}
+    @if $filename == location {
+    $char: "\E058";
+}
+    @if $filename == location2 {
+    $char: "\E059";
+}
+    @if $filename == magnetic {
+    $char: "\E05A";
+}
+    @if $filename == mail {
+    $char: "\E05B";
+}
+    @if $filename == map-marker-alt {
+    $char: "\E05C";
+}
+    @if $filename == matter {
+    $char: "\E05D";
+}
+    @if $filename == menu {
+    $char: "\E05E";
+}
+    @if $filename == mesh {
+    $char: "\E05F";
+}
+    @if $filename == mic {
+    $char: "\E060";
+}
+    @if $filename == minus-circle {
+    $char: "\E061";
+}
+    @if $filename == minus {
+    $char: "\E062";
+}
+    @if $filename == monitor {
+    $char: "\E063";
+}
+    @if $filename == natural {
+    $char: "\E064";
+}
+    @if $filename == no-favorites {
+    $char: "\E065";
+}
+    @if $filename == on {
+    $char: "\E066";
+}
+    @if $filename == organic-2 {
+    $char: "\E067";
+}
+    @if $filename == organic {
+    $char: "\E068";
+}
+    @if $filename == overcharge {
+    $char: "\E069";
+}
+    @if $filename == overdischarge {
+    $char: "\E06A";
+}
+    @if $filename == overpower {
+    $char: "\E06B";
+}
+    @if $filename == overvoltage {
+    $char: "\E06C";
+}
+    @if $filename == payload {
+    $char: "\E06D";
+}
+    @if $filename == phone-square {
+    $char: "\E06E";
+}
+    @if $filename == phone {
+    $char: "\E06F";
+}
+    @if $filename == phone2 {
+    $char: "\E070";
+}
+    @if $filename == phone3 {
+    $char: "\E071";
+}
+    @if $filename == play-circle {
+    $char: "\E072";
+}
+    @if $filename == play {
+    $char: "\E073";
+}
+    @if $filename == play2 {
+    $char: "\E074";
+}
+    @if $filename == plus-circle {
+    $char: "\E075";
+}
+    @if $filename == plus {
+    $char: "\E076";
+}
+    @if $filename == project {
+    $char: "\E077";
+}
+    @if $filename == projector {
+    $char: "\E078";
+}
+    @if $filename == quickview {
+    $char: "\E079";
+}
+    @if $filename == quote {
+    $char: "\E07A";
+}
+    @if $filename == quote2 {
+    $char: "\E07B";
+}
+    @if $filename == quote3 {
+    $char: "\E07C";
+}
+    @if $filename == quote4 {
+    $char: "\E07D";
+}
+    @if $filename == range {
+    $char: "\E07E";
+}
+    @if $filename == ride {
+    $char: "\E07F";
+}
+    @if $filename == run {
+    $char: "\E080";
+}
+    @if $filename == running {
+    $char: "\E081";
+}
+    @if $filename == safe {
+    $char: "\E082";
+}
+    @if $filename == safety {
+    $char: "\E083";
+}
+    @if $filename == schedule {
+    $char: "\E084";
+}
+    @if $filename == search {
+    $char: "\E085";
+}
+    @if $filename == setting {
+    $char: "\E086";
+}
+    @if $filename == shape {
+    $char: "\E087";
+}
+    @if $filename == shipping {
+    $char: "\E088";
+}
+    @if $filename == shoe {
+    $char: "\E089";
+}
+    @if $filename == shopping-bag {
+    $char: "\E08A";
+}
+    @if $filename == shopping-basket {
+    $char: "\E08B";
+}
+    @if $filename == sign-in {
+    $char: "\E08C";
+}
+    @if $filename == sign-out {
+    $char: "\E08D";
+}
+    @if $filename == skill {
+    $char: "\E08E";
+}
+    @if $filename == sleep {
+    $char: "\E08F";
+}
+    @if $filename == smart {
+    $char: "\E090";
+}
+    @if $filename == smartness {
+    $char: "\E091";
+}
+    @if $filename == solution {
+    $char: "\E092";
+}
+    @if $filename == sort {
+    $char: "\E093";
+}
+    @if $filename == sound {
+    $char: "\E094";
+}
+    @if $filename == speaker {
+    $char: "\E095";
+}
+    @if $filename == speed {
+    $char: "\E096";
+}
+    @if $filename == stats {
+    $char: "\E097";
+}
+    @if $filename == suitability {
+    $char: "\E098";
+}
+    @if $filename == sync {
+    $char: "\E099";
+}
+    @if $filename == tachometer-alt-fastest {
+    $char: "\E09A";
+}
+    @if $filename == temp {
+    $char: "\E09B";
+}
+    @if $filename == temperature {
+    $char: "\E09C";
+}
+    @if $filename == texture {
+    $char: "\E09D";
+}
+    @if $filename == thumbs-up {
+    $char: "\E09E";
+}
+    @if $filename == time {
+    $char: "\E09F";
+}
+    @if $filename == touch {
+    $char: "\E0A0";
+}
+    @if $filename == track {
+    $char: "\E0A1";
+}
+    @if $filename == tree {
+    $char: "\E0A2";
+}
+    @if $filename == trophy-alt {
+    $char: "\E0A3";
+}
+    @if $filename == truck {
+    $char: "\E0A4";
+}
+    @if $filename == type {
+    $char: "\E0A5";
+}
+    @if $filename == user-circle {
+    $char: "\E0A6";
+}
+    @if $filename == user {
+    $char: "\E0A7";
+}
+    @if $filename == users {
+    $char: "\E0A8";
+}
+    @if $filename == vegan {
+    $char: "\E0A9";
+}
+    @if $filename == vibrating {
+    $char: "\E0AA";
+}
+    @if $filename == warranty {
+    $char: "\E0AB";
+}
+    @if $filename == wave {
+    $char: "\E0AC";
+}
+    @if $filename == weight {
+    $char: "\E0AD";
+}
+    @if $filename == wifi_2 {
+    $char: "\E0AE";
+}
+    @if $filename == wishlist-fill {
+    $char: "\E0AF";
+}
+    @if $filename == wishlist {
+    $char: "\E0B0";
+}
+    @if $filename == wrench_pencil {
+    $char: "\E0B1";
+}
+
+@return $char;
+}
+
+@mixin opal-icon($filename, $insert: before) {
+&:#{$insert} {
+    content: opal-icon-char($filename);
+}
+}
+
+.opal-icon-CPU {
+    @include opal-icon(CPU);
+}
+.opal-icon-accurately {
+    @include opal-icon(accurately);
+}
+.opal-icon-adjust {
+    @include opal-icon(adjust);
+}
+.opal-icon-air_conditioner {
+    @include opal-icon(air_conditioner);
+}
+.opal-icon-angle {
+    @include opal-icon(angle);
+}
+.opal-icon-arrow-left {
+    @include opal-icon(arrow-left);
+}
+.opal-icon-arrow-right {
+    @include opal-icon(arrow-right);
+}
+.opal-icon-baby_bottle {
+    @include opal-icon(baby_bottle);
+}
+.opal-icon-battery-2 {
+    @include opal-icon(battery-2);
+}
+.opal-icon-battery {
+    @include opal-icon(battery);
+}
+.opal-icon-bell {
+    @include opal-icon(bell);
+}
+.opal-icon-bicycle {
+    @include opal-icon(bicycle);
+}
+.opal-icon-bike {
+    @include opal-icon(bike);
+}
+.opal-icon-blade {
+    @include opal-icon(blade);
+}
+.opal-icon-bluetoot {
+    @include opal-icon(bluetoot);
+}
+.opal-icon-bluetooth {
+    @include opal-icon(bluetooth);
+}
+.opal-icon-board {
+    @include opal-icon(board);
+}
+.opal-icon-body {
+    @include opal-icon(body);
+}
+.opal-icon-bow {
+    @include opal-icon(bow);
+}
+.opal-icon-braking {
+    @include opal-icon(braking);
+}
+.opal-icon-brightness {
+    @include opal-icon(brightness);
+}
+.opal-icon-broadcast {
+    @include opal-icon(broadcast);
+}
+.opal-icon-calculate {
+    @include opal-icon(calculate);
+}
+.opal-icon-calling {
+    @include opal-icon(calling);
+}
+.opal-icon-calorie {
+    @include opal-icon(calorie);
+}
+.opal-icon-cam {
+    @include opal-icon(cam);
+}
+.opal-icon-camera {
+    @include opal-icon(camera);
+}
+.opal-icon-care {
+    @include opal-icon(care);
+}
+.opal-icon-cart-empty {
+    @include opal-icon(cart-empty);
+}
+.opal-icon-cart {
+    @include opal-icon(cart);
+}
+.opal-icon-charging {
+    @include opal-icon(charging);
+}
+.opal-icon-check-circle {
+    @include opal-icon(check-circle);
+}
+.opal-icon-chevron-left {
+    @include opal-icon(chevron-left);
+}
+.opal-icon-chevron-right {
+    @include opal-icon(chevron-right);
+}
+.opal-icon-circuit {
+    @include opal-icon(circuit);
+}
+.opal-icon-clean {
+    @include opal-icon(clean);
+}
+.opal-icon-clock {
+    @include opal-icon(clock);
+}
+.opal-icon-close {
+    @include opal-icon(close);
+}
+.opal-icon-color {
+    @include opal-icon(color);
+}
+.opal-icon-comfort {
+    @include opal-icon(comfort);
+}
+.opal-icon-compare {
+    @include opal-icon(compare);
+}
+.opal-icon-comparison {
+    @include opal-icon(comparison);
+}
+.opal-icon-connect {
+    @include opal-icon(connect);
+}
+.opal-icon-convenient {
+    @include opal-icon(convenient);
+}
+.opal-icon-credit-card {
+    @include opal-icon(credit-card);
+}
+.opal-icon-crescent_moon {
+    @include opal-icon(crescent_moon);
+}
+.opal-icon-cup {
+    @include opal-icon(cup);
+}
+.opal-icon-custom {
+    @include opal-icon(custom);
+}
+.opal-icon-diaper {
+    @include opal-icon(diaper);
+}
+.opal-icon-digital_camera {
+    @include opal-icon(digital_camera);
+}
+.opal-icon-dimension {
+    @include opal-icon(dimension);
+}
+.opal-icon-download {
+    @include opal-icon(download);
+}
+.opal-icon-droplets {
+    @include opal-icon(droplets);
+}
+.opal-icon-edge {
+    @include opal-icon(edge);
+}
+.opal-icon-electrical {
+    @include opal-icon(electrical);
+}
+.opal-icon-email {
+    @include opal-icon(email);
+}
+.opal-icon-energy {
+    @include opal-icon(energy);
+}
+.opal-icon-envelope-open-text {
+    @include opal-icon(envelope-open-text);
+}
+.opal-icon-envelope {
+    @include opal-icon(envelope);
+}
+.opal-icon-fast {
+    @include opal-icon(fast);
+}
+.opal-icon-fast_clock {
+    @include opal-icon(fast_clock);
+}
+.opal-icon-fdd {
+    @include opal-icon(fdd);
+}
+.opal-icon-filter {
+    @include opal-icon(filter);
+}
+.opal-icon-fire {
+    @include opal-icon(fire);
+}
+.opal-icon-fixed {
+    @include opal-icon(fixed);
+}
+.opal-icon-flexible {
+    @include opal-icon(flexible);
+}
+.opal-icon-footstep {
+    @include opal-icon(footstep);
+}
+.opal-icon-forma {
+    @include opal-icon(forma);
+}
+.opal-icon-free {
+    @include opal-icon(free);
+}
+.opal-icon-glow {
+    @include opal-icon(glow);
+}
+.opal-icon-gluten {
+    @include opal-icon(gluten);
+}
+.opal-icon-group {
+    @include opal-icon(group);
+}
+.opal-icon-guarantee {
+    @include opal-icon(guarantee);
+}
+.opal-icon-gym {
+    @include opal-icon(gym);
+}
+.opal-icon-hand-holding-usd {
+    @include opal-icon(hand-holding-usd);
+}
+.opal-icon-headphones-alt {
+    @include opal-icon(headphones-alt);
+}
+.opal-icon-heart-remove {
+    @include opal-icon(heart-remove);
+}
+.opal-icon-heart {
+    @include opal-icon(heart);
+}
+.opal-icon-home-lg {
+    @include opal-icon(home-lg);
+}
+.opal-icon-hot {
+    @include opal-icon(hot);
+}
+.opal-icon-hour {
+    @include opal-icon(hour);
+}
+.opal-icon-icon-heading {
+    @include opal-icon(icon-heading);
+}
+.opal-icon-improve {
+    @include opal-icon(improve);
+}
+.opal-icon-ion {
+    @include opal-icon(ion);
+}
+.opal-icon-length {
+    @include opal-icon(length);
+}
+.opal-icon-life-ring {
+    @include opal-icon(life-ring);
+}
+.opal-icon-lights {
+    @include opal-icon(lights);
+}
+.opal-icon-location {
+    @include opal-icon(location);
+}
+.opal-icon-location2 {
+    @include opal-icon(location2);
+}
+.opal-icon-magnetic {
+    @include opal-icon(magnetic);
+}
+.opal-icon-mail {
+    @include opal-icon(mail);
+}
+.opal-icon-map-marker-alt {
+    @include opal-icon(map-marker-alt);
+}
+.opal-icon-matter {
+    @include opal-icon(matter);
+}
+.opal-icon-menu {
+    @include opal-icon(menu);
+}
+.opal-icon-mesh {
+    @include opal-icon(mesh);
+}
+.opal-icon-mic {
+    @include opal-icon(mic);
+}
+.opal-icon-minus-circle {
+    @include opal-icon(minus-circle);
+}
+.opal-icon-minus {
+    @include opal-icon(minus);
+}
+.opal-icon-monitor {
+    @include opal-icon(monitor);
+}
+.opal-icon-natural {
+    @include opal-icon(natural);
+}
+.opal-icon-no-favorites {
+    @include opal-icon(no-favorites);
+}
+.opal-icon-on {
+    @include opal-icon(on);
+}
+.opal-icon-organic-2 {
+    @include opal-icon(organic-2);
+}
+.opal-icon-organic {
+    @include opal-icon(organic);
+}
+.opal-icon-overcharge {
+    @include opal-icon(overcharge);
+}
+.opal-icon-overdischarge {
+    @include opal-icon(overdischarge);
+}
+.opal-icon-overpower {
+    @include opal-icon(overpower);
+}
+.opal-icon-overvoltage {
+    @include opal-icon(overvoltage);
+}
+.opal-icon-payload {
+    @include opal-icon(payload);
+}
+.opal-icon-phone-square {
+    @include opal-icon(phone-square);
+}
+.opal-icon-phone {
+    @include opal-icon(phone);
+}
+.opal-icon-phone2 {
+    @include opal-icon(phone2);
+}
+.opal-icon-phone3 {
+    @include opal-icon(phone3);
+}
+.opal-icon-play-circle {
+    @include opal-icon(play-circle);
+}
+.opal-icon-play {
+    @include opal-icon(play);
+}
+.opal-icon-play2 {
+    @include opal-icon(play2);
+}
+.opal-icon-plus-circle {
+    @include opal-icon(plus-circle);
+}
+.opal-icon-plus {
+    @include opal-icon(plus);
+}
+.opal-icon-project {
+    @include opal-icon(project);
+}
+.opal-icon-projector {
+    @include opal-icon(projector);
+}
+.opal-icon-quickview {
+    @include opal-icon(quickview);
+}
+.opal-icon-quote {
+    @include opal-icon(quote);
+}
+.opal-icon-quote2 {
+    @include opal-icon(quote2);
+}
+.opal-icon-quote3 {
+    @include opal-icon(quote3);
+}
+.opal-icon-quote4 {
+    @include opal-icon(quote4);
+}
+.opal-icon-range {
+    @include opal-icon(range);
+}
+.opal-icon-ride {
+    @include opal-icon(ride);
+}
+.opal-icon-run {
+    @include opal-icon(run);
+}
+.opal-icon-running {
+    @include opal-icon(running);
+}
+.opal-icon-safe {
+    @include opal-icon(safe);
+}
+.opal-icon-safety {
+    @include opal-icon(safety);
+}
+.opal-icon-schedule {
+    @include opal-icon(schedule);
+}
+.opal-icon-search {
+    @include opal-icon(search);
+}
+.opal-icon-setting {
+    @include opal-icon(setting);
+}
+.opal-icon-shape {
+    @include opal-icon(shape);
+}
+.opal-icon-shipping {
+    @include opal-icon(shipping);
+}
+.opal-icon-shoe {
+    @include opal-icon(shoe);
+}
+.opal-icon-shopping-bag {
+    @include opal-icon(shopping-bag);
+}
+.opal-icon-shopping-basket {
+    @include opal-icon(shopping-basket);
+}
+.opal-icon-sign-in {
+    @include opal-icon(sign-in);
+}
+.opal-icon-sign-out {
+    @include opal-icon(sign-out);
+}
+.opal-icon-skill {
+    @include opal-icon(skill);
+}
+.opal-icon-sleep {
+    @include opal-icon(sleep);
+}
+.opal-icon-smart {
+    @include opal-icon(smart);
+}
+.opal-icon-smartness {
+    @include opal-icon(smartness);
+}
+.opal-icon-solution {
+    @include opal-icon(solution);
+}
+.opal-icon-sort {
+    @include opal-icon(sort);
+}
+.opal-icon-sound {
+    @include opal-icon(sound);
+}
+.opal-icon-speaker {
+    @include opal-icon(speaker);
+}
+.opal-icon-speed {
+    @include opal-icon(speed);
+}
+.opal-icon-stats {
+    @include opal-icon(stats);
+}
+.opal-icon-suitability {
+    @include opal-icon(suitability);
+}
+.opal-icon-sync {
+    @include opal-icon(sync);
+}
+.opal-icon-tachometer-alt-fastest {
+    @include opal-icon(tachometer-alt-fastest);
+}
+.opal-icon-temp {
+    @include opal-icon(temp);
+}
+.opal-icon-temperature {
+    @include opal-icon(temperature);
+}
+.opal-icon-texture {
+    @include opal-icon(texture);
+}
+.opal-icon-thumbs-up {
+    @include opal-icon(thumbs-up);
+}
+.opal-icon-time {
+    @include opal-icon(time);
+}
+.opal-icon-touch {
+    @include opal-icon(touch);
+}
+.opal-icon-track {
+    @include opal-icon(track);
+}
+.opal-icon-tree {
+    @include opal-icon(tree);
+}
+.opal-icon-trophy-alt {
+    @include opal-icon(trophy-alt);
+}
+.opal-icon-truck {
+    @include opal-icon(truck);
+}
+.opal-icon-type {
+    @include opal-icon(type);
+}
+.opal-icon-user-circle {
+    @include opal-icon(user-circle);
+}
+.opal-icon-user {
+    @include opal-icon(user);
+}
+.opal-icon-users {
+    @include opal-icon(users);
+}
+.opal-icon-vegan {
+    @include opal-icon(vegan);
+}
+.opal-icon-vibrating {
+    @include opal-icon(vibrating);
+}
+.opal-icon-warranty {
+    @include opal-icon(warranty);
+}
+.opal-icon-wave {
+    @include opal-icon(wave);
+}
+.opal-icon-weight {
+    @include opal-icon(weight);
+}
+.opal-icon-wifi_2 {
+    @include opal-icon(wifi_2);
+}
+.opal-icon-wishlist-fill {
+    @include opal-icon(wishlist-fill);
+}
+.opal-icon-wishlist {
+    @include opal-icon(wishlist);
+}
+.opal-icon-wrench_pencil {
+    @include opal-icon(wrench_pencil);
+}
